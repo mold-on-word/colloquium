@@ -1,0 +1,68 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    margin: 0;
+}
+
+.terminal {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.prompt-line {
+    margin-bottom: 10px;
+}
+
+.user {
+    color: #42f4d7;
+}
+
+.directory {
+    color: #ffcc00;
+}
+
+.symbol {
+    color: #fff;
+}
+
+#log-area {
+    margin-bottom: 10px;
+}
+
+.input-line {
+    display: flex;
+}
+
+.input-line input {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+
+.disabled input {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
